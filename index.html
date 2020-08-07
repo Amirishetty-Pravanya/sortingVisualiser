@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting Visualizer</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+       <nav>
+       <div class="array_inputs">
+       <h3>Araay size:
+       <input type="range"  id="a_size" min="10" max="150" value=80>
+     </h3>
+     <h3>Speed:
+     <input type="range"  id="a_speed" min="1" max="5" step="1" value="3">
+   </h3>
+       <button type="text" id="a_generate" name="button">Generate array</button>
+       </div>
+
+       <div class="header_right">
+
+            <h1 style="font-size:200%">Sorting Visualizer</h1>
+                <div class="algos">
+                    <button>Bubble</button>
+                    <button>Selection</button>
+                    <button>Insertion</button>
+                    <button>Merge</button>
+                    <button>Quick</button>
+                    <button style="margin-right: 0px;">Heap</button>
+                </div>
+        </div>
+
+       </nav>
+       <div id="array_container">
+
+       </div>
+       <script src="first.js"></script>
+       <script src="bubble.js"></script>
+       <script src="selection.js"></script>
+       <script src="insertion.js"></script>
+       <script src="heap.js"></script>
+       <script src="quick.js"></script>
+       <script src="merge.js"></script>
+  </body>
+</html>
